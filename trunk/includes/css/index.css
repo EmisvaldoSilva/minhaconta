@@ -1,78 +1,32 @@
 @CHARSET "UTF-8";
 @import url("reset.css");
 
-* { 
-    margin : 0; 
-    padding : 0;
-    font-size : 8pt;
-}
+* { margin: 0; padding: 0; font-size: 8pt; }
+body { color: #000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 8pt; text-align: left; min-width: 640px; }
+p { margin: 0 0 0 0; }
+a {	text-decoration: none; }
+h1, h2, h3, h4, h5, h6 { font-family: Verdana,Arial,Helvetica,sans-serif; }
+img { border: 0px; }
+html, body { height: 100%; }
 
-body {
-	color : #000;
-    font-family : Verdana,Arial,Helvetica,sans-serif;
-    font-size : 8pt;
-    text-align : left;
-    min-width : 640px; 
-}
+#geral { color: #000; min-height: 100%; margin: auto; position: relative; }
+#topo { background: #e4f2fd; height: 75px; padding: 0 0 0 0; }
+#lateral { width: 18%; float: left; }
+#conteudo { background: #f2d633; color: #000; float: left; height: 100%; padding: 20px 0 50px 10px; width: 80%; }
+#rodape { background: #033e80;	bottom: 0; color: #aaa; clear: both; padding: 5px 0 5px 0; position: absolute; text-align: center; width: 100%; }
+.clear { clear : both; }
 
-p {
-    margin : 0 0 0 0;
-}
 
-a {
-	text-decoration : none;
-}
+/* Estilização do conteiner 'Conteudo' para a tela principal */
+#column-left { width: 30%; float: left; padding-bottom: 100px; }
+#column-right { width: 70%; float: left; padding-bottom: 100px; }
+#row-top { width: 100% }
+#row-middle { width: 100% }
+#row-middle .portlet {float: left; width: 31%;}
+#row-bottom { width: 100%; clear:both; }
+.portlet { margin: 0 1em 1em 0;}
+.portlet-header { margin: 0.3em; padding: 4px;}
+.portlet-content { padding: 0.4em; }
+.ui-sortable-placeholder { background: #eee; border: 1px dashed gray; visibility: visible !important; height: 50px !important; }
+.ui-sortable-placeholder * { visibility: hidden; }		
 
-h1, h2, h3, h4, h5, h6 {
-    font-family : Verdana,Arial,Helvetica,sans-serif;
-}
-
-img {
-    border : 0px;
-}
-
-html, body {
-	height: 100%;
-}
-
-#geral {
-    color : #000;
-    min-height : 100%;
-	margin : auto;
-	position : relative;
-}
-
-#topo {
-	background : #e4f2fd;
-	height : 75px;
-    padding : 0 0 0 0;
-}
-
-#lateral {
-	width:18%;
-	float:left;
-}
-
-#conteudo {
-	background : #f2d633;
-    color : #000;
-	float : left;
-    height : 100%;
-	padding : 20px 0 50px 10px;
-    width : 80%;
-}
-
-#rodape {
-	background : #033e80;
-	bottom : 0;
-    color : #aaa;
-    clear : both;
-    padding : 5px 0 5px 0;
-	position : absolute;
-    text-align : center;
-    width : 100%;
-}
-
-.clear {
-	clear : both;
-}
