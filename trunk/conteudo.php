@@ -100,9 +100,10 @@ if(!$_GET["app"]){
 <?php 
 } else {
 	if($_GET["subapp"] == '/'){
-		include './apps/' . $_GET["app"] . '/index.php';
+		include './apps/' . $_GET["app"] . '.php';
 	} else {
-		include './apps/' . $_GET["app"] . '/' . $_GET["subapp"]. '.php';
+		$subapp = substr($_GET["subapp"], 0, -1);
+		include './apps' . $subapp. '.php';
 	}
 }
 ?>
