@@ -18,18 +18,23 @@ $(document).ready(function(){
 	$('.portlet-header .ui-icon').hover(
 			function() { $(this).css('cursor', 'pointer'); } 
 	);		
-	$( "#datepicker").datepicker();
+	$.datepicker.setDefaults( $.datepicker.regional[ "pt-BR" ] );
+	$( "#datepicker").datepicker({autoSize: true});
 	$( ".button" ).button();
 	$( "#frm_nova_conta" ).dialog({
 		autoOpen: false,
+		show: "blind",
+		hide: "blind",
 		resizable: false,
-		height:140,
+		height:300,
+		width:500,
 		modal: true,
+		closeOnEscape: true,
 		buttons: {
-			"Delete all items": function() {
+			"OK": function() {
 				$( this ).dialog( "close" );
 			},
-			Cancel: function() {
+			"Cancelar": function() {
 				$( this ).dialog( "close" );
 			}
 		}
@@ -39,4 +44,12 @@ $(document).ready(function(){
 	.click(function() {
 		$( "#frm_nova_conta" ).dialog( "open" );
 	});
+	$( "#txt_vencimento" ).datepicker({
+		showOn: "button",
+		buttonImage: "./includes/images/icons/calendar.png",
+		buttonImageOnly: true,
+		dateFormat: 'dd/mm/yy'
+		
+	});
+	
 });		  

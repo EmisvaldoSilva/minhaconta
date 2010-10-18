@@ -13,7 +13,8 @@
 	<script type="text/javascript" src="./includes/js/jquery-ui-1.8.5.custom.min.js"></script>	
 	<script type="text/javascript" src="./includes/js/jquery-treeview/lib/jquery.cookie.js"></script>
 	<script type="text/javascript" src="./includes/js/jquery-treeview/jquery.treeview.min.js"></script>
-	<script type="text/javascript" src="./includes/js/jquery.ui.core.min.js"></script>		
+	<script type="text/javascript" src="./includes/js/jquery.ui.core.min.js"></script>	
+	<script type="text/javascript" src="./includes/js/jquery.ui.datepicker-pt-BR.js"></script>
 	<script type="text/javascript" src="./includes/js/index.js"></script>
 </head>
 <body>

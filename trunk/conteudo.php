@@ -1,5 +1,32 @@
-<div id="frm_nova_conta" title="Empty the recycle bin?">
-	<p><span class="ui-icon ui-icon-alert" style="float:left; margin:0 7px 20px 0;"></span>These items will be permanently deleted and cannot be recovered. Are you sure?</p>
+<div id="frm_nova_conta" title="Conta | Novo">
+<form>
+	<span class="form_field"><label for="txt_name">Nome</label>
+	<input type="text" name="txt_name" id="txt_name" class="text ui-widget-content" /></span>
+	<span class="form_field"><label for="cbo_tipo">Tipo de Conta</label>
+	<select id="cbo_tipo" name="cbo_tipo" class="select ui-widget-content">
+		<option>Cartão de Crédito</option>
+		<option>Dinheiro</option>
+		<option>Conta-Corrente</option>
+		<option>Poupança</option>
+	</select></span>
+	<span class="form_field"><label for="cbo_banco">Banco</label>
+	<select id="cbo_banco" name="cbo_banco" class="select ui-widget-content">
+		<option>:: Carteira ::</option>
+		<option>Itaú</option>
+		<option>Caixa Econômica Federal</option>
+		<option>Banco do Brasil</option>
+	</select></span>	
+	<span class="form_field"><label for="txt_agencia">Agência</label>
+	<input type="text" name="txt_agencia" id="txt_agencia" class="text ui-widget-content" /></span>
+	<span class="form_field"><label for="txt_numero">Número</label>
+	<input type="text" name="txt_numero" id="txt_numero" class="text ui-widget-content" /></span>		
+	<hr />
+	<span class="form_field"><label for="txt_limite">Limite de Crédito</label>
+	<input type="text" name="txt_limite" id="txt_limite" class="text ui-widget-content" /></span>
+	<span class="form_field"><label for="txt_vencimento">Vencimento do Limite</label>
+	<input type="text" name="txt_vencimento" id="txt_vencimento" class="text ui-widget-content" /></span>					
+</form>
+	
 </div>
 <div class="conteudo">
 <div id="column-left">
