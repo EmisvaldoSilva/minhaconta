@@ -2,7 +2,7 @@
 <div class="menus">
 	<ul id="navigation" class="filetree treeview">
 		<?php 
-			$principal = "<li class='closed'><span class='principal'><a href='#' title=''>Página Principal</a></span>\n";
+			$principal = "<li class='closed'><span class='principal'><a href='./' title=''>Página Principal</a></span>\n";
 			$principal .= "<ul>\n";
 			$principal .= "<li><span class='file'><a href='#'>Contas</a></span></li>\n";
 			$principal .= "<li><span class='file'><a href='#'>Nova Conta a Receber</a></span></li>\n";

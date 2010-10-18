@@ -17,7 +17,7 @@ html, body { height: 100%; }
 .clear { clear : both; }
 
 
-/* Estilização do conteiner 'Conteudo' para a tela principal */
+/* Estilização do container 'Conteudo' para a tela principal */
 #column-left { width: 30%; float: left; padding-bottom: 100px; }
 #column-right { width: 70%; float: left; padding-bottom: 100px; }
 #row-top { width: 100% }
@@ -30,3 +30,7 @@ html, body { height: 100%; }
 .ui-sortable-placeholder { background: #eee; border: 1px dashed gray; visibility: visible !important; height: 50px !important; }
 .ui-sortable-placeholder * { visibility: hidden; }		
 
+
+.form_field { display:block; }
+.form_field, label { float: left; text-align: right; width:40% }
+.form_field, input, select { text-align: left; width:580% }
