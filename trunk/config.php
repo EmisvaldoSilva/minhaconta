@@ -12,5 +12,6 @@ define('IMAGENS','http://' . $_SERVER['HTTP_HOST'] . '/minhaconta/includes/image
 define('JS','http://' .  $_SERVER['HTTP_HOST'] . '/minhaconta/includes/js');
 define('CLASSES','http://' .  $_SERVER['HTTP_HOST'] . '/minhaconta/includes/classes');
 define('CSS','http://' .  $_SERVER['HTTP_HOST'] . '/minhaconta/includes/css');
+define('INDEX','http://' .  $_SERVER['HTTP_HOST'] . '/minhaconta/index/');
 
 ?>
