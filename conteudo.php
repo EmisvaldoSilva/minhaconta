@@ -1,3 +1,6 @@
+<?php
+if(!$_GET["app"]){
+?>
 <div id="frm_nova_conta" title="Conta | Novo">
 <form>
 	<span class="form_field"><label for="txt_name">Nome</label>
@@ -94,3 +97,12 @@
 	</div>
 </div>
 </div>
+<?php 
+} else {
+	if(!$_GET["subapp"]){
+		include './apps/' . $_GET["app"] . '/index.php';
+	} else {
+		include './apps/' . $_GET["app"] . '/' . $_GET["subapp"]. '.php';
+	}
+}
+?>
