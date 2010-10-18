@@ -3,5 +3,5 @@
 	RewriteBase /minhaconta/
 	RewriteCond %{SCRIPT_FILENAME} !-f
 	RewriteCond %{SCRIPT_FILENAME} !-d
-	RewriteRule ^([^/]*)/([^/]*)(/([^/]*)?)/?$ $1.php?app=$2&subapp=$3 [L]
+	RewriteRule ^([^/]*)/([^/]*)(/([^/]*)/?)?$ $1.php?app=$2&subapp=$3 [L]
 </IfModule>
