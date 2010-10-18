@@ -1,3 +1,3 @@
 <?php
-echo 'Página de lançamentos do sistema MinhaConta';
+echo 'Página de Lançamentos do sistema MinhaConta';
 ?>
